@@ -24,9 +24,7 @@ public class CourseServicesImpl implements CourseService {
 	
 	public Course addCourse(Course course) {
 		courseDao.save(course);
-		return course;
-		
-		
+		return course;	
 	}
 
 }

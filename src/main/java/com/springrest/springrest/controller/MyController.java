@@ -26,9 +26,14 @@ public class MyController {
 		return this.courseService.getCourses();
 	}
 	
+
 	@PostMapping("/courses")
 	public Course addCourses(@RequestBody Course course) {
 		return this.courseService.addCourse(course);
 		
 	}
+	
+	
+	
+	
 }
